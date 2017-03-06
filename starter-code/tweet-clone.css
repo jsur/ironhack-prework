@@ -1,0 +1,192 @@
+body {
+  background: rgb(244, 248, 249);
+  font-family: Helvetica;
+}
+
+.tweet-main-container {
+  display: block;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgb(225, 232, 237);
+  border-radius: 4px;
+  max-width: 520px;
+  cursor: pointer;
+}
+
+.tweet-header-body-container {
+  padding: 20px 20px 0 20px;
+}
+
+.tweet-header {
+  position: relative;
+  height: 37px;
+  padding-left: 45px;
+}
+
+.tweet-brand {
+  position: relative;
+  float: right;
+  border: 1px solid rgb(85, 172, 238);
+  border-radius: 4px;
+  height: 32px;
+  color: rgb(85, 172, 238);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.tweet-brand:hover {
+  background-color: rgb(85, 172, 238);
+}
+
+.tweet-brand:hover .tweet-brand-bird-span {
+  color: white;
+}
+
+.tweet-brand-anchor {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.tweet-brand-bird-span {
+  position: relative;
+  display: inline-block;
+  color: rgb(85, 172, 238);
+  padding: 7.5px 13px 2.5px 11.5px;
+}
+
+.icon-bird {
+  float: left;
+  width: 1.25em;
+  height: 1.25em;
+  position: relative;
+  background-image: url(./img/twitter-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: text-bottom;
+  margin-right: 2px;
+}
+
+.tweet-author-avatar {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.avatar {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tweet-account-dude {
+  position: relative;
+}
+
+.icon-dude {
+  position: absolute;
+  width: 1em;
+  height: 1.1em;
+  background-image: url(./img/account-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: text-bottom;
+}
+
+.tweet-author {
+  display: block;
+}
+
+.tweet-author-a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+.tweet-author-name {
+  padding-left: 12px;
+}
+
+.tweet-author-screenname {
+  color: rgb(104, 109, 129);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.tweet-author-screenname::before {
+  white-space: pre;
+  content: "\A\200e";
+}
+
+.icon-badge {
+  background-image: url(./img/validated-account.jpg);
+  height: 1.25em;
+  width: 1.11em;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: text-bottom;
+}
+
+.tweet-body-p {
+  margin-bottom: 4px;
+  color: rgb(0, 0, 0);
+}
+
+.tweet-datetime-a {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.tweet-datetime-time {
+  color: rgb(101, 116, 127);
+}
+
+.tweet-actions {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.tweet-action {
+  display: inline-block;
+}
+
+.tweet-action-retweet,
+.tweet-action-favorite {
+  margin-left: 14px;
+}
+
+.icon-action-reply,
+.icon-action-retweet,
+.icon-action-favorite {
+  display: inline-block;
+  height: 1.25em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.icon-action-reply {
+  background-image: url(./img/reply.jpg);
+  width: 1.07639em;
+}
+
+.icon-action-retweet {
+  background-image: url(./img/retweet.jpg);
+  width: 1.28472em;
+}
+
+.icon-action-favorite {
+  background-image: url(./img/favorite.jpg);
+  width: .9375em;
+}
+
+.tweet-action-retweet-a,
+.tweet-action-favorite-a {
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(105, 120, 130);
+  vertical-align: middle;
+}
